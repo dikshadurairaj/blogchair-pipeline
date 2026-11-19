@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# OpenCode local state
+.opencode/**/.cache
+
+# drafts and notifications are generated per run; ignore packaged results but keep the folders
+drafts/*
+!drafts/.gitkeep
+draft-notifications/*
+!draft-notifications/.gitkeep
